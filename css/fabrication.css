@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 235, 235);
+    height: 100rem;
+    overflow-x: hidden;
+}
+
+
+/* Navbar 1 */
+
+header .cona {
+    width: 100%;
+    background-color: #f8f9fb;
+    height: 40px;
+}
+
+header .cona .col-lg-8>.fa-envelope,
+.fa-map-marked-alt {
+    color: #dd491c;
+}
+
+header .cona .col-lg-8>.ket {
+    font-family: "Lato", serif;
+    color: #6d6c6c;
+}
+
+header .cona .col-lg-4>.ket {
+    font-family: "Lato", serif;
+}
+
+header .cona .col-lg-4>a {
+    color: #dd491c;
+}
+
+
+/* End Navbar 1 */
+
+
+/* Navbar 2 */
+
+header .navbar {
+    background: linear-gradient(to right, #132b35, #0f3748);
+}
+
+header .navbar .nav-link2 {
+    position: absolute;
+    opacity: 0;
+    left: -2000px;
+}
+
+header .navbar-brand>img {
+    width: 90px;
+    margin-bottom: 8px;
+}
+
+header .navbar .navbar-nav .nav-link {
+    color: white;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+header .navbar .navbar-nav .nav-link:hover {
+    color: rgb(98, 231, 255);
+}
+
+.dropdown-toggle,
+.dropdown-menu {
+    border-radius: 0px !important;
+    visibility: hidden;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: #29a5da;
+    transition: all 0.3s ease;
+}
+
+.btn-danger {
+    width: 55%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    visibility: visible;
+}
+
+
+/* Main Section 1 */
+
+.s13 .container-fluid {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/foto kts/bg-12.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s13 .container-fluid .background::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 80vh;
+    width: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.s13 .container-fluid .text {
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.s13 .container-fluid .text .vsms {
+    text-align: center;
+}
+
+.s14 {
+    margin-top: 11rem;
+    font-family: "Poppins";
+}
+
+.s14 .sfab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s14 .img {
+    width: 400px;
+    transform: translateX(100px);
+    transition: 0.2s ease;
+}
+
+.s14 .row2 {
+    margin-top: 8rem;
+    font-family: "Poppins";
+}
+
+.s14 .row3 {
+    margin-top: 8rem;
+    font-family: "Poppins";
+}
+
+.s14 .row4 {
+    margin-top: 8rem;
+    font-family: "Poppins";
+}
+
+
+/* Footer */
+
+footer {
+    padding: 40px;
+    margin-top: 12rem;
+}
+
+footer .col-md-3 .img>img {
+    width: 10rem;
+    margin-left: 80px;
+    margin-bottom: 1.6rem;
+}
+
+footer .col-md-3 .desk {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* End Footer */

@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 235, 235);
+    overflow-x: hidden; 
+    height: 2000px;
+}
+
+
+/* Navbar 1 */
+
+header .cona {
+    width: 100%;
+    background-color: #f8f9fb;
+    height: 40px;
+}
+
+header .cona .col-lg-8>.fa-envelope,
+.fa-map-marked-alt {
+    color: #dd491c;
+}
+
+header .cona .col-lg-8>.ket {
+    font-family: "Lato", serif;
+    color: #6d6c6c;
+}
+
+header .cona .col-lg-4>.ket {
+    font-family: "Lato", serif;
+}
+
+header .cona .col-lg-4>a {
+    color: #dd491c;
+}
+
+
+/* End Navbar 1 */
+
+
+/* Navbar 2 */
+
+header .navbar {
+    background: linear-gradient(to right, #132b35, #0f3748);
+}
+
+header .navbar .nav-link2 {
+    position: absolute;
+    opacity: 0;
+    left: -2000px;
+}
+
+header .navbar-brand>img {
+    width: 90px;
+    margin-bottom: 8px;
+}
+
+header .navbar .navbar-nav .nav-link {
+    color: white;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+header .navbar .navbar-nav .nav-link:hover {
+    color: rgb(98, 231, 255);
+}
+
+.dropdown-toggle,
+.dropdown-menu {
+    border-radius: 0px !important;
+    visibility: hidden;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: #29a5da;
+    transition: all 0.3s ease;
+}
+
+.btn-danger {
+    width: 55%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    visibility: visible;
+}
+
+
+/* Main Section 1 */
+
+.s16 .container-fluid {
+    width: 100%;
+    height: 80vh;
+    background: url("/img/foto kts/bg-11.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s16 .container-fluid .background::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 80vh;
+    width: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.s16 .container-fluid .text {
+    color: white;
+    z-index: 3;
+}
+
+.s16 .container-fluid .text .vsms {
+    text-align: center;
+}
+
+
+/* End Main Section 1 */
+
+.s17 {
+    margin-top: 8rem;
+}
+
+.s17 .row {
+    margin-top: 8rem;
+}
+
+.s17 .row>.img img {
+    border: 2px solid black;
+}
+
+.s17 .row0 {
+    margin-left: 6rem;
+}
+
+.s17 .row1 {
+    margin-top: 4rem;
+    margin-left: 12rem;
+}
+
+.s17 .row2 {
+    margin-top: 4rem;
+    margin-left: 26.5rem;
+}
+
+.s17 .row1 .mec {
+    transform: translate(40px, -20px);
+}
+
+.s17 .row1 .elec {
+    transform: translate(-30px, -20px);
+}
+
+.s17 .row2 .pip {
+    transform: translate(-25px, -20px);
+}
+
+.s17 .row2 .img {
+    position: absolute;
+    width: 500px ;
+    left: 16%;
+}
+
+
+.slick-slide {
+    margin: 0 10px;
+  }
+  
+
+  .slick-slide img {
+   width: 100%;
+  }
+
+  #slick-slide-control00 {
+    background-color: #0f3748;
+    width: 10px;
+  }
+
+  .sCons3 .container {
+    position: relative;
+  }
+
+  .sCons3 .container .arrow-prev {
+    position: absolute;
+    top: 38%;
+    left: -5.5%;
+  }
+  
+  .sCons3 .container .arrow-prev i {
+    font-size: 50px;
+    color: #091d43;
+    cursor: pointer;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  .sCons3 .container .arrow-prev i:active {
+    color: #11d5eb;
+  }
+  .sCons3 .container .arrow-next {
+    position: absolute;
+    top: 38%;
+    left: 100%;
+  }
+  
+  .sCons3 .container .arrow-next i {
+    font-size: 50px;
+    color: #091d43;
+    cursor: pointer;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  .sCons3 .container .arrow-next i:active {
+    color: #11d5eb;
+  }
+
+
+
+/* Footer */
+
+footer {
+    transform: translateY(220px);
+    padding: 40px;
+    position: relative;
+}
+
+footer .col-md-3 .img>img {
+    width: 10rem;
+    margin-left: 80px;
+    margin-bottom: 1.6rem;
+}
+
+footer .col-md-3 .desk {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* End  Footer */

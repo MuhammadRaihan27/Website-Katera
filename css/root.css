@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+
+    /* ========= Colour ========= */
+    --bg-: white;
+    --bg1-: #1F363F;
+    --bg2-: #3f72af; 
+    --bg3-: #3d84a8;
+    --bg4-:  linear-gradient(to top, rgb(34, 27, 172), rgb(42, 132, 228));
+    --text-1-: white;
+    --text-2-:  #1F363F;
+    --text-3-: rgb(68, 68, 68);
+    --text-4-: rgb(192, 192, 192);
+
+    /* ========= Font Family & Size & Weight ========= */
+    --font-pop-: "Poppins";
+    --font-rob-: "Roboto";
+    --font-b1-: 300;  
+    --font-b2-: 400;  
+    --font-b3-: 500;  
+    --font-b4-: 600;  
+    --font-b5-: 700; 
+    --font-b6-: 900; 
+    --font-s1-: 1rem;
+    --font-s2-: 1.5rem;
+    --font-s3-: 2rem;
+    --font-s4-: 2.5rem;
+    --font-s5-: 3rem;
+}
