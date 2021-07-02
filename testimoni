@@ -1,0 +1,138 @@
+ <section id="section-6">
+            <div class="text-header text-center">
+                <p class="testimoni">TESTIMONI</p>
+                <h3 class="title">
+                    <span>Happy</span>
+                    <span class="bld">Client</span>
+                    <span>Says</span><br>
+                    <span>About Us</span>
+                </h3>
+               </div>
+            <div class="container">
+                <ul id="autoWidth" class="cs-hidden">
+        
+                <li class="item-a">
+                    <!--slider-box-->
+                        <div class="box">
+                          <div class="img">
+                              <img src="/img/orang1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="text">
+                              <h3>Muhammad Raihan</h3>
+                              <p class="job">Traders</p>
+                              <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                          </div>
+                        </div>
+                </li>
+        
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box">
+                        <div class="img">
+                            <img src="/img/orang1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Muhammad Raihan</h3>
+                            <p class="job">Traders</p>
+                            <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                        </div>
+                      </div>
+                 </li>
+        
+                <li class="item-a">
+                    <!--slider-box-->
+                       <div class="box">
+                          <div class="img">
+                              <img src="/img/orang1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="text">
+                              <h3>Muhammad Raihan</h3>
+                              <p class="job">Traders</p>
+                              <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                          </div>
+                        </div>
+                </li>
+                <li class="item-a">
+                    <!--slider-box-->
+                        <div class="box">
+                          <div class="img">
+                              <img src="/img/orang1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="text">
+                              <h3>Muhammad Raihan</h3>
+                              <p class="job">Traders</p>
+                              <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                          </div>
+                        </div>
+                </li>
+                <li class="item-a">
+                    <!--slider-box-->
+                        <div class="box">
+                          <div class="img">
+                              <img src="/img/orang1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="text">
+                              <h3>Muhammad Raihan</h3>
+                              <p class="job">Traders</p>
+                              <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                          </div>
+                        </div>
+                </li>
+                <li class="item-a">
+                    <!--slider-box-->
+                       <div class="box">
+                          <div class="img">
+                              <img src="/img/orang1.png" class="img-fluid" alt="">
+                          </div>
+                          <div class="text">
+                              <h3>Muhammad Raihan</h3>
+                              <p class="job">Traders</p>
+                              <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus similique incidunt molestiae possimus tenetur et id. Inventore molestiae ex et corrupti possimus adipisci! Nam provident qui saepe eius magni.</p>
+                          </div>
+                        </div>
+                </li>
+
+                </ul>                 
+        </section>
