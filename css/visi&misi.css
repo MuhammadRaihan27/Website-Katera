@@ -80,8 +80,7 @@ header .bg-blue,
 
 header #navbar-brand {
   width: 5rem;
-  position: absolute;
-  left: 4rem;
+  margin-left: 2rem;
 }
 
 header .navbar .navbar-nav .nav-link {
@@ -163,11 +162,12 @@ header .navbar .navbar-nav .nav-link:active {
 
 .section-2 .container {
   display: flex;
+  flex-direction: column;
 }
 
 .section-2 .wrapper-1 {
-  width: 70rem;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .section-2 .wrapper-1 .visi {
@@ -279,4 +279,22 @@ footer .wrapper-2 .box-2 ul li {
 footer .wrapper-2 .box > h5 {
   font-family: var(--font-pop-);
   font-weight: var(--font-b3-);
+}
+
+
+@media (max-width:600px) {
+
+   .section-2 .wrapper-1 > h4  {
+       font-size: 1rem;
+   }
+
+   .section-2 .wrapper-2 > h4 {
+       font-size: 1rem;
+   } 
+
+   .section-2 .wrapper-2 > h4 > .bld{
+      font-size: 1.5rem;
+   }
+
+
 }

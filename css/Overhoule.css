@@ -80,8 +80,7 @@ header .bg-blue,
 
 header #navbar-brand {
   width: 5rem;
-  position: absolute;
-  left: 4rem;
+  margin-left: 2rem;
 }
 
 header .navbar .navbar-nav .nav-link {
@@ -177,7 +176,6 @@ header .navbar .navbar-nav .nav-link:hover {
   .section-2 .sub-heading {
     margin-top: 6rem;
     font-size: 1.1em;
-    text-align: justify;
   }
 
 
@@ -307,3 +305,45 @@ footer .wrapper-2 .box > h5 {
   font-weight: var(--font-b3-);
 }
   
+
+@media (max-width: 1199px) {
+
+  .section-2 h1::after {
+    left: 1% !important;
+  }
+
+}
+
+@media (max-width: 608px) {
+
+  .section-2 h1::after {
+    left: 43% !important;
+  }
+
+}
+
+@media (max-width:475px) {
+  .section-2 h1::after {
+      left: 42% !important;
+    }
+
+ }
+
+ @media (max-width:435px) {
+  .section-2 h1::after {
+      left: 38% !important;
+    }
+ }
+
+ @media (max-width:410px) {
+  .section-2 h1::after {
+      left: 40% !important;
+    }
+ }
+
+
+ @media (max-width:329px) {
+  .section-2 h1::after {
+      left: 36% !important;
+    }
+ }

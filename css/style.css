@@ -75,10 +75,13 @@ header .bg-blue,
   background: var(--bg1-);
 }
 
+header .navbar {
+  margin-left: auto;
+}
+
 header #navbar-brand {
   width: 5rem;
-  position: absolute;
-  left: 4rem;
+  margin-left: 2rem;
 }
 
 header .navbar .navbar-nav .nav-link {
@@ -841,7 +844,25 @@ footer .wrapper-2 .box > h5 {
    }
 
    header #navbar-brand {
-     margin-left: auto;
+     margin-right: auto;
+   }
+
+   header .navbar .navbar-nav {
+     margin-top: 3rem;
+   }
+
+   header .navbar .navbar-nav .nav-link {
+     text-align: center;
+   }
+
+   .dropdown-item {
+    text-align: center;
+   }
+
+   .navbar-toggler {
+     font-size: 1.5rem;
+     color: white;
+     margin-right: 1rem; 
    }
   
     /* Navbar 1 */
@@ -983,6 +1004,14 @@ footer .wrapper-2 .box > h5 {
 
    /* Section 1 */
 
+   #section-2 {
+    margin-top: 4rem;
+  }
+
+   .slide {
+    height: 35em;
+   }
+
     #section-1 .slide .slide-content .name-pt {
        font-size: 2rem;
     } 
@@ -1013,6 +1042,10 @@ footer .wrapper-2 .box > h5 {
       }
 
       #section-3 .colums-text {
+        text-align: center;
+      }
+
+      #section-3 .colums-text .deks .deks-box > .paragraf {
         text-align: center;
       }
 

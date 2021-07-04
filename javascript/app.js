@@ -57,7 +57,7 @@ $('.slick-gerak').slick({
       }
     },
     {
-      breakpoint: 601,
+      breakpoint: 720,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,

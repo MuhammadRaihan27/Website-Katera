@@ -80,8 +80,7 @@ header .bg-blue,
 
 header #navbar-brand {
   width: 5rem;
-  position: absolute;
-  left: 4rem;
+  margin-left: 2rem;
 }
 
 header .navbar .navbar-nav .nav-link {
@@ -256,4 +255,19 @@ footer .wrapper-2 .box > h5 {
   font-family: var(--font-pop-);
   font-weight: var(--font-b3-);
 }
+
+@media (max-width: 515px) {
+
+  .section-2 .row .col-md-4 {
+      display: flex;
+      align-items: center;
+  }
+
+  .section-2 .row .col-md-4 .img {
+    transform: translateX(0px);
+    width : 20rem;
+   }
+
+   
+ }
 
