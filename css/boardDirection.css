@@ -111,20 +111,18 @@ header .navbar .navbar-nav .nav-link:hover {
 
 .section-1 {
   background-color: #295c72;
-  height: auto;
+  height: 100%;
 }
 
 
 
 
 .section-1 .container-fluid {
-  width: 100%;
-  height: 40rem;
-  background: url("/img/direksi/bersama1.jpg") no-repeat;
-  background-attachment: fixed;
-  background-position: 0 15px;
+  height: 40rem; 
+  background: url("/img/direksi/bersama1.jpg") no-repeat center;
+  overflow: hidden;
   background-size: cover;
-  position: relative;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,9 +305,6 @@ footer .wrapper-1 .box-3 .paragraf > a:hover,
 
 footer .wrapper-2 {
   display: flex;
-  justify-content: space-evenly;
-  margin: 2rem 0;
-  border-bottom: 0.5px solid white;
   padding-bottom: 3em;
 }
 
@@ -330,16 +325,28 @@ footer .wrapper-2 .box > h5 {
   font-weight: var(--font-b3-);
 }
 
+@media (min-width:1300px) {
+  .section-1 .container-fluid {
+    background-position: 0 0;
+  }
+}
 
 @media (max-width: 1199px) {
 
   .section-2 h1::after {
       left: 1% !important;
     }
+}
 
-    .section-2 .container .col-md-6 > .TOP{
-      margin-top: 3.5rem;
-    }
+@media (max-width:991px) {
+
+  .section-2 .container .col-md-6 > .TOP{
+    margin-top: 3.5rem;
+  }
+
+  .section-1 .container-fluid {
+    height: 30rem;
+  }
 }
 
 @media (max-width: 767px) {

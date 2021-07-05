@@ -112,8 +112,7 @@ header .navbar .navbar-nav .nav-link:hover {
 .section-1 .container-fluid {
   width: 100%;
   height: 30rem;
-  background: url("/img/oli1.png") no-repeat;
-  background-position: 0px ;
+  background: url("/img/oli1.png") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -175,7 +174,6 @@ header .navbar .navbar-nav .nav-link:hover {
 
 .section-2 .sub-heading {
   font-size: 1.1em;
-  text-align: justify;
 }
 
 .section-2 .sb-head {

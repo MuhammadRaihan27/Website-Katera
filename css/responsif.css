@@ -239,28 +239,8 @@
       }
    }
 
-   @media (max-width: 515px) {
-
-    .section-2 .row .col-md-4 {
-        display: flex;
-        align-items: center;
-    }
-
-    .section-2 .row .col-md-4 .img {
-      transform: translateX(0px);
-      width : 20rem;
-     }
-
-     
-   }
 
    @media (max-width: 508px) {
-
-    .section-2 .row .col-md-4 {
-      display: flex;
-      align-items: center;
-  }
-
 
     .section-3 .container {
       width: 400px;

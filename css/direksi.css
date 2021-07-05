@@ -111,8 +111,8 @@ header .navbar .navbar-nav .nav-link:hover {
 .section-1 .container-fluid {
   width: 100%;
   height: 40rem;
-  background: url("/img/direksi/bersama1.jpg") no-repeat;
-  background-position: 0 0;
+  background: url("/img/direksi/bersama1.jpg") no-repeat center;
+  background-attachment: center;
   background-size: cover;
   position: relative;
   display: flex;
@@ -154,6 +154,7 @@ header .navbar .navbar-nav .nav-link:hover {
   margin-top: 11rem;
   margin-bottom: 14rem;
   font-family: "Poppins";
+  overflow-x: hidden;
 }
 
 .section-2 .row .col-md-4 .img {
@@ -256,18 +257,32 @@ footer .wrapper-2 .box > h5 {
   font-weight: var(--font-b3-);
 }
 
+@media (max-width: 529px) {
+  
+  .section-2 .row .col-md-4 .img img{
+    width: 18rem;
+   }
+
+   .section-2 .row .col-md-4 {
+    transform: translateX(-30px);
+   }
+}
+
 @media (max-width: 515px) {
 
   .section-2 .row .col-md-4 {
       display: flex;
       align-items: center;
   }
-
-  .section-2 .row .col-md-4 .img {
-    transform: translateX(0px);
-    width : 20rem;
-   }
-
-   
  }
 
+@media (max-width: 345px) {
+  
+  .section-2 .row .col-md-4 .img img{
+    width: 16rem;
+   }
+
+   .section-2 .row .col-md-4 {
+    transform: translateX(-30px);
+   }
+} 
